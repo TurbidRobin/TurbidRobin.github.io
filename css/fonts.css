@@ -1,0 +1,10 @@
+/* @font-face */
+@font-face {
+    font-family: "Cinzel";
+    src: url('../fonts/Cinzel/static/Cinzel-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Commorant_Garamond";
+    src: url('../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf');
+}

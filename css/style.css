@@ -1,0 +1,53 @@
+/*import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+/*css variables*/
+@import url(./partials/_variables.css);
+
+
+/* start navigation */
+.header-area .main-menu, .navbar  .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    margin-left: 20rem;
+}
+
+.header_area .main-menu, .navbar{
+ padding: 1rem 20rem;
+
+}
+
+.header-area .main-menu, .nav-item, .nav-link{
+    font: normal 500 15px/2px var(--cinzel);
+    padding: 1.7rem;
+    color: var(--title-color);
+    
+    
+}
+
+.header-area, .main-menu, .navbar-nav, .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+.header-area, .main-menu, .navbar-nav, .active:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+}
+/* end navigation*/
+
+ .btn{
+    background-color: var(--primary-color2);
+    color: white;
+    margin: 1px;
+}
+
+.btn2{
+    color: white;
+    text-decoration: none;
+}
+.btn2:hover{
+    color: black;
+}
